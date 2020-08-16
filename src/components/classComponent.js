@@ -8,17 +8,22 @@ class ClassComponent extends Component {
       list: [
         {
           id: 1,
-          task: 'Buy milk',
+          task: 'Create tasks',
           completed: false,
         },
         {
           id: 2,
-          task: 'Clean room',
+          task: 'Read tasks',
           completed: false,
         },
         {
           id: 3,
-          task: 'Make dinner',
+          task: 'Mark complete',
+          completed: false,
+        },
+        {
+          id: 4,
+          task: 'Delete tasks',
           completed: false,
         },
       ],

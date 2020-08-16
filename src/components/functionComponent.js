@@ -6,17 +6,22 @@ const FunctionComponent = () => {
     [
       {
         id: 1,
-        task: 'Buy milk',
+        task: 'Create tasks',
         completed: false,
       },
       {
         id: 2,
-        task: 'Clean room',
+        task: 'Read tasks',
         completed: false,
       },
       {
         id: 3,
-        task: 'Make dinner',
+        task: 'Mark complete',
+        completed: false,
+      },
+      {
+        id: 4,
+        task: 'Delete tasks',
         completed: false,
       },
     ],
@@ -89,7 +94,7 @@ const FunctionComponent = () => {
           </ul>
         </Col>
         <Col xs={6} md={6}>
-          <h4>Add item:</h4>
+          <h4>Add task:</h4>
           <form onSubmit={handleSubmit}>
             <input type="text" value={currentItem} onChange={handleChange} />
           </form>
