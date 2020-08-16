@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/barebones-react-todo-list/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/barebones-react-todo-list/static/js/main.d8f0ef93.chunk.js",
-    "main.js.map": "/barebones-react-todo-list/static/js/main.d8f0ef93.chunk.js.map",
-    "runtime-main.js": "/barebones-react-todo-list/static/js/runtime-main.91874576.js",
-    "runtime-main.js.map": "/barebones-react-todo-list/static/js/runtime-main.91874576.js.map",
-    "static/css/2.22d6b5ec.chunk.css": "/barebones-react-todo-list/static/css/2.22d6b5ec.chunk.css",
-    "static/js/2.0d9957f3.chunk.js": "/barebones-react-todo-list/static/js/2.0d9957f3.chunk.js",
-    "static/js/2.0d9957f3.chunk.js.map": "/barebones-react-todo-list/static/js/2.0d9957f3.chunk.js.map",
-    "index.html": "/barebones-react-todo-list/index.html",
-    "precache-manifest.871b4e9bfc1b394e19d2fa22f8f75540.js": "/barebones-react-todo-list/precache-manifest.871b4e9bfc1b394e19d2fa22f8f75540.js",
-    "service-worker.js": "/barebones-react-todo-list/service-worker.js",
-    "static/css/2.22d6b5ec.chunk.css.map": "/barebones-react-todo-list/static/css/2.22d6b5ec.chunk.css.map",
-    "static/css/main.27fd15f6.chunk.css.map": "/barebones-react-todo-list/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.0d9957f3.chunk.js.LICENSE.txt": "/barebones-react-todo-list/static/js/2.0d9957f3.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.27fd15f6.chunk.css",
+    "main.js": "./static/js/main.195c24cd.chunk.js",
+    "main.js.map": "./static/js/main.195c24cd.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f6a946e7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f6a946e7.js.map",
+    "static/css/2.22d6b5ec.chunk.css": "./static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.0d9957f3.chunk.js": "./static/js/2.0d9957f3.chunk.js",
+    "static/js/2.0d9957f3.chunk.js.map": "./static/js/2.0d9957f3.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.58319617a38612e214acc3fe5efb8317.js": "./precache-manifest.58319617a38612e214acc3fe5efb8317.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.22d6b5ec.chunk.css.map": "./static/css/2.22d6b5ec.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "./static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.0d9957f3.chunk.js.LICENSE.txt": "./static/js/2.0d9957f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.91874576.js",
+    "static/js/runtime-main.f6a946e7.js",
     "static/css/2.22d6b5ec.chunk.css",
     "static/js/2.0d9957f3.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.d8f0ef93.chunk.js"
+    "static/js/main.195c24cd.chunk.js"
   ]
 }
