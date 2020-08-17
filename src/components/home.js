@@ -6,12 +6,12 @@ const Home = () => {
     <ul>
       <li>
         <NavLink className='nav-link' exact to={'/class-component'}>
-          Class Component
+          To-Do List app via a Class Component
         </NavLink>
       </li>
       <li>
         <NavLink className='nav-link' exact to={'/function-component'}>
-          Function Component
+          To-Do List app via a Function Component
         </NavLink>
       </li>
     </ul>

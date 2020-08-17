@@ -111,7 +111,7 @@ class ClassComponent extends Component {
           <Col xs={6} md={6}>
             <h4>Add item:</h4>
             <form onSubmit={this.handleSubmit}>
-              <input type="text" value={this.state.currentItem} onChange={this.handleChange} />
+              <input type="text" autoFocus value={this.state.currentItem} onChange={this.handleChange} />
             </form>
           </Col>
         </Row>

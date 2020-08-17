@@ -94,7 +94,7 @@ const FunctionComponent = () => {
         <Col xs={6} md={6}>
           <h4>Add task:</h4>
           <form onSubmit={handleSubmit}>
-            <input type="text" value={currentItem} onChange={handleChange} />
+            <input type="text" autoFocus value={currentItem} onChange={handleChange} />
           </form>
         </Col>
       </Row>
