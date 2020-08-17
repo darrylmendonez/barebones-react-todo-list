@@ -109,7 +109,7 @@ class ClassComponent extends Component {
             </ul>
           </Col>
           <Col xs={6} md={6}>
-            <h4>Add item:</h4>
+            <h4>Add task:</h4>
             <form onSubmit={this.handleSubmit}>
               <input type="text" autoFocus value={this.state.currentItem} onChange={this.handleChange} />
               <button type="submit">+</button>
