@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './components/home'
 import ClassComponent from './components/classComponent'
@@ -8,7 +8,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route exact path='/' component={Home} />
@@ -16,7 +16,7 @@ const App = () => {
           <Route path='/function-component' component={FunctionComponent} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

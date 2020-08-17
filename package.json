@@ -1,6 +1,6 @@
 {
   "name": "todo-list",
-  "homepage": "http://darrylmendonez.github.io/barebones-react-todo-list",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
