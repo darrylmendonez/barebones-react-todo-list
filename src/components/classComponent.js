@@ -67,10 +67,8 @@ class ClassComponent extends Component {
         list: [...prevState.list, newItem],
         currentItem: '',
       }
-    }, () => {
-      localStorage.setItem('list', JSON.stringify(this.state.list))
-      console.log('state: ', this.state)
-    })
+    }, () => localStorage.setItem('list', JSON.stringify(this.state.list))
+    )
   }
 
   toggleCompleteStatus = id => {
@@ -78,18 +76,16 @@ class ClassComponent extends Component {
       return {
         list: this.state.list.map( item => item.id === id ? {...item, completed: !item.completed} : item)
       }
-    }, () => {
-      localStorage.setItem('list', JSON.stringify(this.state.list))
-    })
+    }, () => localStorage.setItem('list', JSON.stringify(this.state.list))
+    )
   }
 
   deleteTask = id => {
     let filteredList = this.state.list.filter( item => item.id !== id)
     this.setState({
       list: [...filteredList]
-    }, () => {
-      localStorage.setItem('list', JSON.stringify(this.state.list))
-    })
+    }, () => localStorage.setItem('list', JSON.stringify(this.state.list))
+    )
   }
 
   render() {

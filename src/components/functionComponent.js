@@ -33,11 +33,9 @@ const FunctionComponent = () => {
     if (localList !== null) {
       setList(localList)
     }
-  }, []) // empty array as second argument will behave exaclty like componentDidMount
+  }, []) // empty array as second argument will behave exactly like componentDidMount
 
-  const handleChange = e => {
-    setCurrentItem(e.target.value)
-  }
+  const handleChange = e => setCurrentItem(e.target.value)
 
   const handleSubmit = e => {
     e.preventDefault()
